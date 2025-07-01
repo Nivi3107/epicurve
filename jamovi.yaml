@@ -1,0 +1,8 @@
+title: Epicurve Module
+version: 1.0.2
+jamovi: 2.0.0
+R: 4.0.0
+dependencies:
+    - R:
+        - ggplot2
+        - lubridate

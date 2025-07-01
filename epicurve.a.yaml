@@ -1,0 +1,20 @@
+name:  epicurve
+title: Epicurve
+ns:    epicurve
+menuGroup: Frequencies
+menuTitle: Epicurve
+version: 1.0.0
+author:
+    - name: Your Name
+      email: your.email@example.com
+      url: https://yourwebsite.com
+description: Creates an epidemic curve (epicurve) to visualize the frequency of new cases over time.
+analyses:
+    - name: epicurve
+      title: Epicurve
+      ns: epicurve
+      menuGroup: Frequencies
+      menuTitle: Epicurve
+      description:
+          R: The R code for this analysis is available in the file 'epicurve.R'.
+      rclass: epicurve

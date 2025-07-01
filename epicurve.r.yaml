@@ -1,0 +1,39 @@
+name: epicurve
+title: Epicurve
+ns: epicurve
+menuGroup: Frequencies
+menuTitle: Epicurve
+
+options:
+    - name: dateVar
+      title: Date of Onset
+      type: Variable
+      description: Select the variable containing the date of symptom onset for each case.
+      suggested:
+        - continuous
+        - nominal
+        - ordinal
+      permitted:
+        - numeric
+        - factor
+        - id
+        
+    - name: interval
+      title: Time Interval
+      type: List
+      options:
+        - name: day
+          title: Day
+        - name: week
+          title: Week
+        - name: month
+          title: Month
+      default: day
+
+    - name: status
+      title: Status
+      type: Preformatted
+
+    - name: plot
+      title: Epicurve Plot
+      type: Output
