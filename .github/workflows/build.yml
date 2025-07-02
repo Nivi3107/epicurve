@@ -27,7 +27,7 @@ jobs:
 
     # 4. Build the module using jmvtools
     - name: Build module
-      run: jmvtools::build()
+      run: jmvtools::install()
       shell: Rscript {0}
 
     # 5. Upload the .jmo file as a downloadable artifact
