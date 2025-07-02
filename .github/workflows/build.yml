@@ -22,7 +22,7 @@ jobs:
     # 3. Install jmvtools and its dependencies
     - name: Install jmvtools
       run: |
-        install.packages('jmvtools', repos='https://repo.jamovi.org')
+        install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-project.org'))
       shell: Rscript {0}
 
     # 4. Build the module using jmvtools
